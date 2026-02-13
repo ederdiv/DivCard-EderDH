@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(21, 41, 68, 0.926);
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: rgba(4, 201, 250, 0.647);
+    width: 350px;
+    padding: 28px 24px 28px 24px;
+    border-radius: 30px;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card_header {
+    text-align: center;
+}
+
+.card_img {
+    width: 140px;          /* tamaño visible */
+    height: 140px;         /* igual al width */
+    border-radius: 50%;    /* círculo perfecto */
+    object-fit: cover;     /* evita deformación */
+    border: 3px solid rgb(127, 255, 212); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card_title {
+    color: aliceblue;
+    margin-top: 4px;
+}
+
+.card_ocupacion {
+    color:aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.card_descripcion_contenedor {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.card_descripcion {
+    color: rgb(247, 247, 247);
+}
+
+.card_footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card_boton_contactar {
+    color: rgb(255, 255, 255);
+    background-color: rgb(140, 213, 188);
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+}
+
+.card_boton_descargar {
+    color: rgb(255, 255, 255);
+    background-color: rgb(140, 213, 188);
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+}
+
+.card_redes_sociales {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.card_redes_sociales li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.card_link_redes a {
+    color: rgba(21, 41, 68, 0.926);
+    font-size: 15px;
+}
